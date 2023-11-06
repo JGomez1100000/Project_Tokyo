@@ -28,19 +28,19 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 
 #--------------------COSAS QUE VAMOS A USAR EN TODA LA APP----------------------------#
-listings_detailed_raw = pd.read_csv(r'C:\Users\Javi\Desktop\Bootcamp\Proyecto_modulo_2\data\listings_detailed.csv')
-listings_raw = pd.read_csv(r'C:\Users\Javi\Desktop\Bootcamp\Proyecto_modulo_2\data\listings.csv')
-listings = pd.read_csv(r'C:\Users\Javi\Desktop\Bootcamp\Proyecto_modulo_2\listings_tokyo.csv')
-reviews_details = pd.read_csv(r'C:\Users\Javi\Desktop\Bootcamp\Proyecto_modulo_2\reviews_details_tokyo.csv')
+listings_detailed_raw = pd.read_csv(r'C:\Users\Javi\Desktop\Bootcamp2\Proyecto_modulo_2\data\listings_detailed.csv')
+listings_raw = pd.read_csv(r'C:\Users\Javi\Desktop\Bootcamp2\Proyecto_modulo_2\data\listings.csv')
+listings = pd.read_csv(r'C:\Users\Javi\Desktop\Bootcamp2\Proyecto_modulo_2\data_cleaned\listings_tokyo.csv')
+reviews_details = pd.read_csv(r'C:\Users\Javi\Desktop\Bootcamp2\Proyecto_modulo_2\data_cleaned\reviews_details_tokyo.csv')
 #--------------------CONFIGURACIÓN DE LA PÁGINA----------------------------#
 st.title('Tokyo Airbnb Dataset :izakaya_lantern:')
 
 #--------------------Imagenes----------------------------#
-image = Image.open(r'C:\Users\Javi\Desktop\Bootcamp\Proyecto_modulo_2\Streamlit\Images\mtfuji.jpg')
-image2 = Image.open(r'C:\Users\Javi\Desktop\Bootcamp\Proyecto_modulo_2\Streamlit\Images\mtfuji2.jpg')
-image3 = Image.open(r'C:\Users\Javi\Desktop\Bootcamp\Proyecto_modulo_2\Streamlit\Images\prefecture_mapjpg.jpg')
-image4 = Image.open(r'C:\Users\Javi\Desktop\Bootcamp\Proyecto_modulo_2\Streamlit\Images\bandera.jpg')
-image5 = Image.open(r'C:\Users\Javi\Desktop\Bootcamp\Proyecto_modulo_2\Streamlit\Images\hiroshi.png')
+image = Image.open(r'C:\Users\Javi\Desktop\Bootcamp2\Proyecto_modulo_2\Streamlit\Images\mtfuji.jpg')
+image2 = Image.open(r'C:\Users\Javi\Desktop\Bootcamp2\Proyecto_modulo_2\Streamlit\Images\mtfuji2.jpg')
+image3 = Image.open(r'C:\Users\Javi\Desktop\Bootcamp2\Proyecto_modulo_2\Streamlit\Images\prefecture_mapjpg.jpg')
+image4 = Image.open(r'C:\Users\Javi\Desktop\Bootcamp2\Proyecto_modulo_2\Streamlit\Images\bandera.jpg')
+image5 = Image.open(r'C:\Users\Javi\Desktop\Bootcamp2\Proyecto_modulo_2\Streamlit\Images\hiroshi.png')
 #--------------------Links----------------------------#
 link = '<iframe title="dashboard_airbnb_tokyo" width="1140" height="541.25" src="https://app.fabric.microsoft.com/reportEmbed?reportId=9396b597-3eba-4262-bc18-295004ae53e6&autoAuth=true&ctid=8aebddb6-3418-43a1-a255-b964186ecc64" frameborder="0" allowFullScreen="true"></iframe>'
 
