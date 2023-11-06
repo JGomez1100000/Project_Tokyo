@@ -193,8 +193,8 @@ if selection == 'EDA':
         'review_scores_checkin', 'review_scores_communication',
         'review_scores_location', 'review_scores_value','license_encode',
         'room_type_encode', 'host_response_time', 'host_response_rate',
-        'host_acceptance_rate','reviews_per_month',
-        'calculated_host_listings_count', 'availability_365','number_of_reviews']
+        'host_acceptance_rate']
+
         listings_columns= listings[columns_corr]
         matrix_corr = listings_columns.corr()
 
