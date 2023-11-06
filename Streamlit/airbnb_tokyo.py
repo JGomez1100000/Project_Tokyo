@@ -15,6 +15,7 @@ from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import CountVectorizer
 from wordcloud import WordCloud
 
+
 #------------------------------------------------#
 #tenemos dos opciones de layout, wide or centered
 
