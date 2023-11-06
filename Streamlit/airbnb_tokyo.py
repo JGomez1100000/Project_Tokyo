@@ -1,23 +1,18 @@
 #--------------------LIBRERÍAS----------------------------#
 import streamlit as st
-import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 import plotly.express as px
-import plotly.graph_objects as go
 from PIL import Image
-from scipy.stats import zscore
 # import folium
 # from folium.plugins import FastMarkerCluster
 import geopandas as gpd
 from branca.colormap import LinearColormap
 import plotly.colors
 import nltk
-from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
-import re
-from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
+from sklearn.feature_extraction.text import CountVectorizer
 from wordcloud import WordCloud
 
 #------------------------------------------------#
